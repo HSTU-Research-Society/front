@@ -37,24 +37,18 @@ The website will include the following pages and features:
 
 ## Plan for Current Request
 
-1.  **Initialize Firebase Integration:** Add the necessary Firebase configuration to the project.
-2.  **Create Project Structure:**
-    *   Create directories for `components` and new pages.
-    *   Create the following pages: `about`, `events`, `members`, and `contact`.
-3.  **Implement the Layout:**
-    *   Create a `Header` component with navigation links.
-    *   Update the root layout to include the `Header`.
-4.  **Develop the Home Page:**
-    *   Design and implement the hero section.
-    *   Create a placeholder for the latest news.
-5.  **Develop the About Us Page:**
-    *   Add content for the club's history and goals.
-6.  **Develop the Events Page:**
-    *   Create a layout to display a list of events.
-7.  **Develop the Members Page:**
-    *   Design a gallery to showcase members.
-8.  **Develop the Contact Page:**
-    *   Create a functional contact form.
-9.  **Apply Styling:**
-    *   Update `globals.css` with a professional color palette and typography.
-    *   Create and style individual components and pages.
+1.  **Initialize Website Architecture Structure:**
+    *   Create directories and default `page.tsx` files for:
+        *   Home (`/`)
+        *   About (`/about` and sub-routes)
+        *   Research (`/research` and sub-routes)
+        *   Resources (`/resources` and sub-routes)
+        *   Events (`/events` and sub-routes)
+        *   Media (`/media` and sub-routes)
+        *   Community (`/community` and sub-routes)
+        *   Verification (`/verification` and sub-routes)
+        *   Contact (`/contact` and sub-routes)
+    *   Clean up deprecated root-level folders (`committee`, `library`, `magazine`, `members`).
+2.  **Verify New Structure:**
+    *   Ensure the preview server functions with the new routes.
+    *   Check for any compilation errors.
